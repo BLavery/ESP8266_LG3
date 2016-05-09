@@ -84,15 +84,17 @@ Your lua bin build should support at least these modules:  Adc, file, gpio, I2C,
 **Your "project":**
 
 Several sample "project" files supplied, run on LG3 platform:
-    1. The "ubiquitous" 2 gpio out simple control from web page
-    2. WebIO-esp – control over each gpio, ala the defunct WebIO-pi
-    3. Scheduled hourly (or whatever) logging of all GPIO data
-    4. Simple demo of all supplied oled display styles
-    5. HC04 sonar logging/control – not yet
-    6. PIR logging – not yet
-    7. TNET – a minimal "telnet" access
-    8. Battery voltage (or LDR) level monitor – not yet
-    9. Capture/logging of multiple button/switch events – not yet
+
+ 1. The "ubiquitous" 2 gpio out simple control from web page  
+ 2. WebIO-esp – control over each gpio, ala the defunct WebIO-pi
+ 3. Scheduled hourly (or whatever) logging of all GPIO data  
+ 4. Simple demo of all supplied oled display styles  
+ 5. HC04 sonar logging/control – not yet  
+ 6. PIR logging – not yet  
+ 7. TNET - a minimal "telnet" access
+ 8. Battery voltage (or LDR) level monitor – not yet
+ 8. Capture/logging of multiple button/switch events – not yet
+
 
 Your project file MUST supply functions action(\_GET) and buildpage().
 
