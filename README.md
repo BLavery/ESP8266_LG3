@@ -5,7 +5,8 @@
 
 **An 8266 datalogger platform with webserver, true time, event logging, virtual memory, oled, telnet.**
 
-
+## May 2018 - This is no longer being maintained by the original author.
+## Please feel free to fork, copy, adapt if you find it useable
 
 LG3 is a small suite of lua files that forms an IoT logger platform, operating via local Access Point.  (It's "LG3" simply because there were two earlier versions.) It works easily on the devkit 1.0 boards and the variant clones based on ESP-12, but there is little reason that ESP-01 should not support many of the features. On this standard datalogger platform, you then add your specific "project".
 
